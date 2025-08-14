@@ -5,6 +5,12 @@ import { BenefitsSection } from "@/components/BenefitsSection";
 import { NFTSection } from "@/components/NFTSection";
 import { DAOSection } from "@/components/DAOSection";
 import { BenefitsTable } from "@/components/BenefitsTable";
+import { AdditionalBenefitsSection } from "@/components/AdditionalBenefitsSection";
+import { AboutDolphinSection } from "@/components/AboutDolphinSection";
+import { TeamSection } from "@/components/TeamSection";
+import { PresaleSection } from "@/components/PresaleSection";
+import { WalletSection } from "@/components/WalletSection";
+import { TokenomicsSection } from "@/components/TokenomicsSection";
 import { SocialLinks } from "@/components/SocialLinks";
 import dolphinLogo from "@/assets/dolphin-logo.png";
 
@@ -18,20 +24,13 @@ const Index = () => {
       <NFTSection />
       <DAOSection />
       <BenefitsTable />
+      <AdditionalBenefitsSection />
+      <AboutDolphinSection />
+      <TeamSection />
+      <PresaleSection />
+      <WalletSection />
+      <TokenomicsSection />
       <SocialLinks />
-      
-      {/* Dolphin Image Section */}
-      <div className="bg-gradient-primary p-6 pb-16">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="relative">
-            <img 
-              src={dolphinLogo} 
-              alt="Dolphin Splashing" 
-              className="w-80 h-80 mx-auto animate-float drop-shadow-2xl"
-            />
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
