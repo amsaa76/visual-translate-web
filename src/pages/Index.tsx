@@ -13,6 +13,7 @@ import { WalletSection } from "@/components/WalletSection";
 import { TokenomicsSection } from "@/components/TokenomicsSection";
 import { RoadmapSection } from "@/components/RoadmapSection";
 import { FAQSection } from "@/components/FAQSection";
+import { ContactSection } from "@/components/ContactSection";
 import { SocialLinks } from "@/components/SocialLinks";
 
 const Index = () => {
@@ -33,6 +34,7 @@ const Index = () => {
       <TokenomicsSection />
       <RoadmapSection />
       <FAQSection />
+      <ContactSection />
       <SocialLinks />
     </div>
   );

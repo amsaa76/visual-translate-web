@@ -1,33 +1,62 @@
-import { Twitter, MessageCircle, Youtube, Instagram, Link } from "lucide-react";
+import { Twitter, MessageCircle, Link, Youtube, Instagram } from "lucide-react";
 
 export const SocialLinks = () => {
   return (
-    <div className="bg-gradient-primary p-6">
-      <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-8">
-          <h3 className="text-2xl font-bold text-white mb-6">Follow Us:</h3>
+    <div className="bg-gradient-to-b from-purple-600 to-blue-600 p-8">
+      <div className="max-w-4xl mx-auto text-center">
+        <div className="flex justify-center gap-8 mb-8">
+          <a 
+            href="#" 
+            className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
+            aria-label="Twitter"
+          >
+            <Twitter className="w-8 h-8 text-white" />
+          </a>
           
-          <div className="flex justify-center gap-4 flex-wrap">
-            <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-              <Twitter className="w-8 h-8 text-white" />
-            </div>
-            <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-              <MessageCircle className="w-8 h-8 text-white" />
-            </div>
-            <div className="w-16 h-16 bg-blue-400 rounded-2xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-              <MessageCircle className="w-8 h-8 text-white" />
-            </div>
-            <div className="w-16 h-16 bg-purple-500 rounded-2xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-              <Link className="w-8 h-8 text-white" />
-            </div>
-            <div className="w-16 h-16 bg-red-500 rounded-2xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-              <Youtube className="w-8 h-8 text-white" />
-            </div>
-            <div className="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-              <Instagram className="w-8 h-8 text-white" />
-            </div>
-          </div>
+          <a 
+            href="#" 
+            className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
+            aria-label="WhatsApp"
+          >
+            <MessageCircle className="w-8 h-8 text-white" />
+          </a>
+          
+          <a 
+            href="#" 
+            className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
+            aria-label="Telegram"
+          >
+            <MessageCircle className="w-8 h-8 text-white" />
+          </a>
+          
+          <a 
+            href="#" 
+            className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
+            aria-label="Website"
+          >
+            <Link className="w-8 h-8 text-white" />
+          </a>
+          
+          <a 
+            href="#" 
+            className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
+            aria-label="YouTube"
+          >
+            <Youtube className="w-8 h-8 text-white" />
+          </a>
+          
+          <a 
+            href="#" 
+            className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
+            aria-label="Instagram"
+          >
+            <Instagram className="w-8 h-8 text-white" />
+          </a>
         </div>
+        
+        <p className="text-white text-lg font-medium">
+          © 2024 Dolphin Meme Token. All rights reserved.
+        </p>
       </div>
     </div>
   );
