@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import faqDolphin from "@/assets/faq-dolphin.png";
 
 export const FAQSection = () => {
   const faqData = [
@@ -48,14 +49,13 @@ export const FAQSection = () => {
         <div className="text-center">
           <div className="bg-blue-400 rounded-2xl p-8 mb-8">
             <img 
-              src="/lovable-uploads/38519632-f920-447a-802a-31377e04af94.png" 
+              src={faqDolphin} 
               alt="FAQ Dolphin" 
               className="w-48 h-32 mx-auto object-cover rounded-xl mb-4"
             />
           </div>
           
-          <h2 className="text-5xl font-bold text-white mb-8 flex items-center justify-center gap-4">
-            <HelpCircle className="w-12 h-12" />
+          <h2 className="text-5xl font-bold text-white mb-8">
             Frequently Asked Questions (FAQ)
           </h2>
         </div>
@@ -73,6 +73,17 @@ export const FAQSection = () => {
               </AccordionItem>
             ))}
           </Accordion>
+        </div>
+        
+        {/* Footer Dolphin Logo */}
+        <div className="text-center">
+          <div className="inline-block bg-white rounded-full p-4 shadow-glow">
+            <img 
+              src={faqDolphin} 
+              alt="Dolphin Logo" 
+              className="w-16 h-16 object-contain"
+            />
+          </div>
         </div>
       </div>
     </div>
