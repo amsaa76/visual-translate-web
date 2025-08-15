@@ -11,8 +11,9 @@ import { TeamSection } from "@/components/TeamSection";
 import { PresaleSection } from "@/components/PresaleSection";
 import { WalletSection } from "@/components/WalletSection";
 import { TokenomicsSection } from "@/components/TokenomicsSection";
+import { RoadmapSection } from "@/components/RoadmapSection";
+import { FAQSection } from "@/components/FAQSection";
 import { SocialLinks } from "@/components/SocialLinks";
-import dolphinLogo from "@/assets/dolphin-logo.png";
 
 const Index = () => {
   return (
@@ -30,6 +31,8 @@ const Index = () => {
       <PresaleSection />
       <WalletSection />
       <TokenomicsSection />
+      <RoadmapSection />
+      <FAQSection />
       <SocialLinks />
     </div>
   );
