@@ -7,7 +7,6 @@ import { DAOSection } from "@/components/DAOSection";
 import { BenefitsTable } from "@/components/BenefitsTable";
 import { AdditionalBenefitsSection } from "@/components/AdditionalBenefitsSection";
 import { AboutDolphinSection } from "@/components/AboutDolphinSection";
-import { TeamSection } from "@/components/TeamSection";
 import { PresaleSection } from "@/components/PresaleSection";
 import { WalletSection } from "@/components/WalletSection";
 import { TokenomicsSection } from "@/components/TokenomicsSection";
@@ -28,7 +27,6 @@ const Index = () => {
       <BenefitsTable />
       <AdditionalBenefitsSection />
       <AboutDolphinSection />
-      <TeamSection />
       <PresaleSection />
       <WalletSection />
       <TokenomicsSection />
