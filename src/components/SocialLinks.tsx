@@ -1,52 +1,64 @@
-import { Twitter, MessageCircle, Link, Youtube, Instagram } from "lucide-react";
+import { Twitter, MessageCircle, Users, Video, Instagram } from "lucide-react";
 
 export const SocialLinks = () => {
   return (
     <div className="bg-gradient-to-b from-purple-600 to-blue-600 p-8">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="flex justify-center gap-8 mb-8">
+        <div className="flex justify-center gap-6 mb-8 flex-wrap">
           <a 
-            href="#" 
+            href="https://x.com/DolphinSolana24?s=09"
+            target="_blank"
+            rel="noopener noreferrer" 
             className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
-            aria-label="Twitter"
+            aria-label="Twitter/X"
           >
             <Twitter className="w-8 h-8 text-white" />
           </a>
           
           <a 
-            href="#" 
+            href="https://t.me/DolphineSolana2"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
-            aria-label="WhatsApp"
+            aria-label="Telegram Chat"
           >
             <MessageCircle className="w-8 h-8 text-white" />
           </a>
           
           <a 
-            href="#" 
+            href="https://t.me/DolphinSolana1"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
-            aria-label="Telegram"
+            aria-label="Telegram Announcements"
           >
             <MessageCircle className="w-8 h-8 text-white" />
           </a>
           
           <a 
-            href="#" 
+            href="https://discord.gg/JyupxNjPDH"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
-            aria-label="Website"
+            aria-label="Discord Server"
           >
-            <Link className="w-8 h-8 text-white" />
+            <Users className="w-8 h-8 text-white" />
           </a>
           
           <a 
-            href="#" 
+            href="https://www.tiktok.com/@dolphinsolana?_t=ZS-8yP30gpTyVD"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
-            aria-label="YouTube"
+            aria-label="TikTok"
           >
-            <Youtube className="w-8 h-8 text-white" />
+            <Video className="w-8 h-8 text-white" />
           </a>
           
           <a 
-            href="#" 
+            href="https://www.instagram.com/dolphinsolana?igsh=b3ZtYXB1dHY3OWxk"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white/20 p-4 rounded-full hover:bg-white/30 transition-colors backdrop-blur-sm"
             aria-label="Instagram"
           >
