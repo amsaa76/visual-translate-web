@@ -2,77 +2,88 @@ import { Twitter, MessageCircle, Users, Video, Instagram } from "lucide-react";
 
 export const SocialLinks = () => {
   return (
-    <section className="bg-gradient-primary p-8 min-h-[200px]">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-primary-foreground mb-6">
+    <section className="bg-gradient-to-br from-purple-600 via-blue-600 to-purple-800 p-12 min-h-[300px]">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-4xl font-bold text-white mb-4 animate-fade-in">
           تابعنا على وسائل التواصل الاجتماعي
         </h2>
+        <p className="text-xl text-white/90 mb-10">
+          انضم إلى مجتمع Dolphin Solana على جميع المنصات
+        </p>
         
-        <div className="flex justify-center gap-6 mb-8 flex-wrap">
+        <div className="flex justify-center gap-8 mb-12 flex-wrap">
           <a 
             href="https://x.com/DolphinSolana24?s=09"
             target="_blank"
             rel="noopener noreferrer" 
-            className="bg-primary-foreground/20 p-4 rounded-full hover:bg-primary-foreground/30 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-glow"
+            className="group bg-white/15 border border-white/30 p-6 rounded-2xl hover:bg-white/25 transition-all duration-300 backdrop-blur-md hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/25"
             aria-label="Twitter/X"
           >
-            <Twitter className="w-8 h-8 text-primary-foreground" />
+            <Twitter className="w-10 h-10 text-white group-hover:scale-110 transition-transform" />
+            <p className="text-white text-sm mt-2 font-medium">Twitter</p>
           </a>
           
           <a 
             href="https://t.me/DolphineSolana2"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary-foreground/20 p-4 rounded-full hover:bg-primary-foreground/30 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-glow"
+            className="group bg-white/15 border border-white/30 p-6 rounded-2xl hover:bg-white/25 transition-all duration-300 backdrop-blur-md hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/25"
             aria-label="Telegram Chat"
           >
-            <MessageCircle className="w-8 h-8 text-primary-foreground" />
+            <MessageCircle className="w-10 h-10 text-white group-hover:scale-110 transition-transform" />
+            <p className="text-white text-sm mt-2 font-medium">Telegram</p>
           </a>
           
           <a 
             href="https://t.me/DolphinSolana1"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary-foreground/20 p-4 rounded-full hover:bg-primary-foreground/30 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-glow"
+            className="group bg-white/15 border border-white/30 p-6 rounded-2xl hover:bg-white/25 transition-all duration-300 backdrop-blur-md hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/25"
             aria-label="Telegram Announcements"
           >
-            <MessageCircle className="w-8 h-8 text-primary-foreground" />
+            <MessageCircle className="w-10 h-10 text-white group-hover:scale-110 transition-transform" />
+            <p className="text-white text-sm mt-2 font-medium">إعلانات</p>
           </a>
           
           <a 
             href="https://discord.gg/JyupxNjPDH"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary-foreground/20 p-4 rounded-full hover:bg-primary-foreground/30 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-glow"
+            className="group bg-white/15 border border-white/30 p-6 rounded-2xl hover:bg-white/25 transition-all duration-300 backdrop-blur-md hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/25"
             aria-label="Discord Server"
           >
-            <Users className="w-8 h-8 text-primary-foreground" />
+            <Users className="w-10 h-10 text-white group-hover:scale-110 transition-transform" />
+            <p className="text-white text-sm mt-2 font-medium">Discord</p>
           </a>
           
           <a 
             href="https://www.tiktok.com/@dolphinsolana?_t=ZS-8yP30gpTyVD"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary-foreground/20 p-4 rounded-full hover:bg-primary-foreground/30 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-glow"
+            className="group bg-white/15 border border-white/30 p-6 rounded-2xl hover:bg-white/25 transition-all duration-300 backdrop-blur-md hover:scale-110 hover:shadow-2xl hover:shadow-pink-500/25"
             aria-label="TikTok"
           >
-            <Video className="w-8 h-8 text-primary-foreground" />
+            <Video className="w-10 h-10 text-white group-hover:scale-110 transition-transform" />
+            <p className="text-white text-sm mt-2 font-medium">TikTok</p>
           </a>
           
           <a 
             href="https://www.instagram.com/dolphinsolana?igsh=b3ZtYXB1dHY3OWxk"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary-foreground/20 p-4 rounded-full hover:bg-primary-foreground/30 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-glow"
+            className="group bg-white/15 border border-white/30 p-6 rounded-2xl hover:bg-white/25 transition-all duration-300 backdrop-blur-md hover:scale-110 hover:shadow-2xl hover:shadow-pink-500/25"
             aria-label="Instagram"
           >
-            <Instagram className="w-8 h-8 text-primary-foreground" />
+            <Instagram className="w-10 h-10 text-white group-hover:scale-110 transition-transform" />
+            <p className="text-white text-sm mt-2 font-medium">Instagram</p>
           </a>
         </div>
         
-        <p className="text-primary-foreground/80 text-lg font-medium">
-          © 2024 Dolphin Meme Token. All rights reserved.
-        </p>
+        <div className="border-t border-white/20 pt-8">
+          <p className="text-white/70 text-lg font-medium">
+            © 2025 Dolphin Solana Token. جميع الحقوق محفوظة
+          </p>
+        </div>
       </div>
     </section>
   );
