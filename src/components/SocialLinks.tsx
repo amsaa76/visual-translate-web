@@ -5,10 +5,10 @@ export const SocialLinks = () => {
     <section className="bg-gradient-to-br from-purple-600 via-blue-600 to-purple-800 p-12 min-h-[300px]">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-white mb-4 animate-fade-in">
-          تابعنا على وسائل التواصل الاجتماعي
+          Follow Us on Social Media
         </h2>
         <p className="text-xl text-white/90 mb-10">
-          انضم إلى مجتمع Dolphin Solana على جميع المنصات
+          Join the Dolphin Solana community on all platforms
         </p>
         
         <div className="flex justify-center gap-8 mb-12 flex-wrap">
@@ -42,7 +42,7 @@ export const SocialLinks = () => {
             aria-label="Telegram Announcements"
           >
             <MessageCircle className="w-10 h-10 text-white group-hover:scale-110 transition-transform" />
-            <p className="text-white text-sm mt-2 font-medium">إعلانات</p>
+            <p className="text-white text-sm mt-2 font-medium">Announcements</p>
           </a>
           
           <a 
@@ -81,7 +81,7 @@ export const SocialLinks = () => {
         
         <div className="border-t border-white/20 pt-8">
           <p className="text-white/70 text-lg font-medium">
-            © 2025 Dolphin Solana Token. جميع الحقوق محفوظة
+            © 2025 Dolphin Solana Token. All rights reserved.
           </p>
         </div>
       </div>
