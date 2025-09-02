@@ -77,11 +77,11 @@ export const TokenomicsSection = () => {
             </div>
             <div className="flex justify-between items-center py-2 border-b border-gray-200">
               <span className="font-semibold">Total Supply:</span>
-              <span>777,777,777</span>
+              <span>77,777,777.7</span>
             </div>
             <div className="flex justify-between items-center py-2">
               <span className="font-semibold">Contract Address:</span>
-              <span className="text-xs break-all">SPTzbTska6x6kyCHGF1mHJYqNNBkVDcBTGdsb</span>
+              <span className="text-xs break-all">GPfzbTska6x6KyZH8FVimjcH3YxgN5kvVwDc8f8dsaZN</span>
             </div>
           </div>
         </div>

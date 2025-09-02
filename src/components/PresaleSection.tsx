@@ -26,9 +26,29 @@ export const PresaleSection = () => {
               PRESALE ON SMITH TOOLS
             </h3>
             
-            <h4 className="text-2xl font-bold text-white">
-              COMING SOON - STAY TUNED!
+            <h4 className="text-2xl font-bold text-yellow-300">
+              Presale Starts: October 15, 2025
             </h4>
+            
+            <div className="space-y-4">
+              <Button 
+                size="lg" 
+                className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4"
+                onClick={() => window.open('https://tools.smithii.io/launches-list/solana', '_blank')}
+              >
+                Join Presale on Smith Tools
+              </Button>
+              
+              <div className="mt-4">
+                <a 
+                  href="/Dolphin-Solana-Whitepaper-2025.pdf" 
+                  download="Dolphin-Solana-Whitepaper-2025.pdf"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+                >
+                  📄 Download Whitepaper
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         
