@@ -43,15 +43,7 @@ export const PresaleSection = () => {
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-semibold"
-                  onClick={() => {
-                    const pdfPath = '/visual-translate-web/Dolphin-Solana-Whitepaper-2025.pdf';
-                    const link = document.createElement('a');
-                    link.href = pdfPath;
-                    link.download = 'Dolphin-Solana-Whitepaper-2025.pdf';
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                  }}
+                  onClick={() => window.open('/Dolphin-Solana-Whitepaper-2025.pdf', '_blank')}
                 >
                   📄 Download Whitepaper
                 </Button>
