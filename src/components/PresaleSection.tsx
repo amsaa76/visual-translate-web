@@ -40,13 +40,21 @@ export const PresaleSection = () => {
               </Button>
               
               <div className="mt-4">
-                <a 
-                  href="/Dolphin-Solana-Whitepaper-2025.pdf" 
-                  download="Dolphin-Solana-Whitepaper-2025.pdf"
-                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+                <Button
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold"
+                  onClick={() => {
+                    const link = document.createElement('a');
+                    link.href = '/Dolphin-Solana-Whitepaper-2025.pdf';
+                    link.download = 'Dolphin-Solana-Whitepaper-2025.pdf';
+                    link.target = '_blank';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}
                 >
                   📄 Download Whitepaper
-                </a>
+                </Button>
               </div>
             </div>
           </div>
