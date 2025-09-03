@@ -43,7 +43,7 @@ export const PresaleSection = () => {
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-semibold"
-                  onClick={() => window.open('/Dolphin-Solana-Whitepaper-2025.pdf', '_blank')}
+                  onClick={() => window.open('./Dolphin-Solana-Whitepaper-2025.pdf', '_blank')}
                 >
                   📄 Download Whitepaper
                 </Button>
