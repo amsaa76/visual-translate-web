@@ -43,7 +43,24 @@ export const PresaleSection = () => {
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-semibold"
-                  onClick={() => window.open('/Dolphin-Solana-Whitepaper-2025.pdf', '_blank')}
+                  onClick={() => {
+                    console.log('Attempting to download whitepaper...');
+                    try {
+                      // Try direct download first
+                      const link = document.createElement('a');
+                      link.href = '/Dolphin-Solana-Whitepaper-2025.pdf';
+                      link.download = 'Dolphin-Solana-Whitepaper-2025.pdf';
+                      link.style.display = 'none';
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                      console.log('Download initiated successfully');
+                    } catch (error) {
+                      console.error('Download failed:', error);
+                      // Fallback: open in new tab
+                      window.open('/Dolphin-Solana-Whitepaper-2025.pdf', '_blank');
+                    }
+                  }}
                 >
                   📄 Download Whitepaper
                 </Button>
