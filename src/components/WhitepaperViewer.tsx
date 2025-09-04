@@ -57,7 +57,7 @@ export const WhitepaperViewer = () => {
       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <Button
           size="lg"
-          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold flex items-center gap-2"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold flex items-center gap-2"
           onClick={handleViewWhitepaper}
         >
           <FileText className="w-5 h-5" />
@@ -66,7 +66,7 @@ export const WhitepaperViewer = () => {
         
         <Button
           size="lg"
-          className="bg-green-600 hover:bg-green-700 text-white font-semibold flex items-center gap-2"
+          className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold flex items-center gap-2"
           onClick={handleDownloadPDF}
         >
           <Download className="w-5 h-5" />
@@ -76,11 +76,11 @@ export const WhitepaperViewer = () => {
 
       {/* Modal for Whitepaper Viewer */}
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg w-full max-w-6xl h-[90vh] flex flex-col">
+        <div className="fixed inset-0 bg-background/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-card rounded-lg w-full max-w-6xl h-[90vh] flex flex-col shadow-lg border">
             {/* Modal Header */}
             <div className="flex items-center justify-between p-4 border-b">
-              <h2 className="text-xl font-bold text-gray-800">Dolphin Solana Whitepaper</h2>
+              <h2 className="text-xl font-bold text-foreground">Dolphin Solana Whitepaper</h2>
               <div className="flex items-center gap-2">
                 <Button
                   size="sm"
