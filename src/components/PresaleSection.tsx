@@ -2,6 +2,7 @@ import { GradientCard } from "@/components/ui/gradient-card";
 import { Button } from "@/components/ui/button";
 import { Settings } from "lucide-react";
 import dolphinLogo from "@/assets/dolphin-logo.png";
+import { WhitepaperViewer } from "./WhitepaperViewer";
 
 export const PresaleSection = () => {
   return (
@@ -40,13 +41,7 @@ export const PresaleSection = () => {
               </Button>
               
               <div className="mt-4">
-                <Button
-                  size="lg"
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold"
-                  onClick={() => window.open('./Dolphin-Solana-Whitepaper-2025.pdf', '_blank')}
-                >
-                  📄 Download Whitepaper
-                </Button>
+                <WhitepaperViewer />
               </div>
             </div>
           </div>
