@@ -16,9 +16,14 @@ export const WhitepaperDocument = () => {
         <h1 className="text-6xl font-bold text-white mb-4">
           Dolphin Solana (DOLPHIN)
         </h1>
-        <h2 className="text-3xl text-white/90 mb-8">
+        <h2 className="text-3xl text-white/90 mb-6">
           Whitepaper — 2025 Edition
         </h2>
+        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 mb-6 max-w-2xl">
+          <p className="text-sm text-white/90 font-medium">
+            <strong>Disclaimer:</strong> This whitepaper is for informational purposes only and does not constitute investment advice.
+          </p>
+        </div>
         <div className="text-white/80 text-lg">
           Next-Generation Meme Coin Powered by AI
         </div>
