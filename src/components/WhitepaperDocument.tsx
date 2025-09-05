@@ -16,14 +16,9 @@ export const WhitepaperDocument = () => {
         <h1 className="text-6xl font-bold text-white mb-4">
           Dolphin Solana (DOLPHIN)
         </h1>
-        <h2 className="text-3xl text-white/90 mb-6">
+        <h2 className="text-3xl text-white/90 mb-8">
           Whitepaper — 2025 Edition
         </h2>
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 mb-6 max-w-2xl">
-          <p className="text-sm text-white/90 font-medium">
-            <strong>Disclaimer:</strong> This whitepaper is for informational purposes only and does not constitute investment advice.
-          </p>
-        </div>
         <div className="text-white/80 text-lg">
           Next-Generation Meme Coin Powered by AI
         </div>
@@ -368,9 +363,6 @@ export const WhitepaperDocument = () => {
         {/* Footer */}
         <footer className="text-center py-8 border-t-2 border-gray-200">
           <p className="text-gray-600">© 2025 Dolphin Solana. All rights reserved.</p>
-          <p className="text-sm text-gray-500 mt-2">
-            This whitepaper is for informational purposes only and does not constitute investment advice.
-          </p>
         </footer>
       </div>
     </div>
