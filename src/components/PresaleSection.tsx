@@ -24,7 +24,7 @@ export const PresaleSection = () => {
             </h2>
             
             <h3 className="text-3xl font-bold text-white">
-              PRESALE ON SMITH TOOLS
+              PRESALE ON SMITHII TOOLS
             </h3>
             
             <h4 className="text-2xl font-bold text-yellow-300">
@@ -37,7 +37,7 @@ export const PresaleSection = () => {
                 className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4"
                 onClick={() => window.open('https://tools.smithii.io/launches-list/solana', '_blank')}
               >
-                Join Presale on Smith Tools
+                Join Presale on Smithii Tools
               </Button>
               
               <div className="mt-4">
@@ -51,12 +51,12 @@ export const PresaleSection = () => {
         <div className="space-y-8">
           <h3 className="text-3xl font-bold text-white text-center flex items-center justify-center gap-4">
             <Settings className="w-10 h-10" />
-            About Smith Tools
+            About Smithii Tools
           </h3>
           
           <div className="text-lg text-white/90 leading-relaxed space-y-6">
             <p>
-              Smith Tools is a premier platform for secure and transparent presale operations in the 
+              Smithii Tools is a premier platform for secure and transparent presale operations in the 
               cryptocurrency space. It provides investors with:
             </p>
             
@@ -103,7 +103,7 @@ export const PresaleSection = () => {
             </div>
             
             <p className="text-center text-lg">
-              Smith Tools is the trusted choice for presale operations, ensuring a safe and reliable 
+              Smithii Tools is the trusted choice for presale operations, ensuring a safe and reliable 
               experience for all participants.
             </p>
           </div>
