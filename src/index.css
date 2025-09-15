@@ -109,14 +109,32 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  /* Hide Lovable badge */
+  /* Hide Lovable badge - Comprehensive rules */
   [data-lovable-badge],
   [class*="lovable"],
   [id*="lovable"],
-  a[href*="lovable.dev"] {
+  a[href*="lovable.dev"],
+  [class*="Lovable"],
+  [id*="Lovable"],
+  div[class*="badge"],
+  iframe[src*="lovable"],
+  button[class*="lovable"],
+  span[class*="lovable"],
+  .lovable-badge,
+  #lovable-badge,
+  [aria-label*="lovable"],
+  [aria-label*="Lovable"],
+  [title*="lovable"],
+  [title*="Lovable"] {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    z-index: -9999 !important;
   }
 
   body {
