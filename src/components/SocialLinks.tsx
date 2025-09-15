@@ -79,11 +79,6 @@ export const SocialLinks = () => {
           </a>
         </div>
         
-        <div className="border-t border-primary-foreground/20 pt-8">
-          <p className="text-primary-foreground/70 text-lg font-medium">
-            © 2025 Dolphin Solana Token. All rights reserved.
-          </p>
-        </div>
       </div>
     </section>
   );
