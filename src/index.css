@@ -137,6 +137,7 @@ All colors MUST be HSL.
     z-index: -9999 !important;
   }
 
+  /* Body styles */
   body {
     @apply bg-background text-foreground;
   }
