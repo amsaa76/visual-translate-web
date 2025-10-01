@@ -141,7 +141,6 @@ All colors MUST be HSL.
     user-select: none !important;
   }
 
-  /* Body styles */
   body {
     @apply bg-background text-foreground;
   }
