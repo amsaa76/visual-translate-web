@@ -109,18 +109,9 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  /* Hide any Lovable branding */
-  [data-lovable-badge],
-  [data-lovable-branding],
-  a[href*="lovable.dev"],
-  a[href*="lovable.app"],
-  div[class*="lovable"],
-  button[aria-label*="Edit in Lovable"],
-  iframe[title*="Lovable"] {
+  /* Hide Lovable badge */
+  [data-lovable-badge] {
     display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
   }
 
   body {
