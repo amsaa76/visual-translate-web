@@ -109,12 +109,13 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  /* Hide Lovable badge */
-  [data-lovable-badge] {
-    display: none !important;
-  }
-
   body {
     @apply bg-background text-foreground;
+  }
+  
+  /* Optimize rendering performance */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
