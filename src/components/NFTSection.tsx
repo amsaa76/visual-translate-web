@@ -11,13 +11,24 @@ export const NFTSection = () => {
             What are NFTs and why does Dolphin use them?
           </h2>
           
-          <p className="text-xl text-white mb-8">
+          <p className="text-2xl text-white mb-8">
             NFT = Unique Digital Ownership.
           </p>
           
-          <p className="text-xl text-white mb-8">
+          <p className="text-xl text-white mb-6">
             In Dolphin Solana, NFTs will be:
           </p>
+          
+          <div className="space-y-4 max-w-2xl mx-auto">
+            <div className="flex items-center gap-3 text-white text-left text-lg">
+              <div className="w-3 h-3 bg-white rounded-full"></div>
+              <span>AI-generated and exclusive to holders</span>
+            </div>
+            <div className="flex items-center gap-3 text-white text-left text-lg">
+              <div className="w-3 h-3 bg-white rounded-full"></div>
+              <span>Connected with our PlayStation-style game ecosystem to unlock extra benefits and rewards</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

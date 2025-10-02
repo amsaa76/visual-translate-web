@@ -23,21 +23,51 @@ export const BenefitsTable = () => {
           <div className="bg-white">
             <div className="grid grid-cols-2 gap-4 p-6 border-b border-gray-200">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">🧠</span>
+                <span className="text-2xl">🎯</span>
                 <span className="font-semibold text-gray-800">Owning the token</span>
               </div>
               <div className="text-gray-700">
-                You get special NFTs or access to Web3 features.
+                Special NFTs, access to Web3 + AI features.
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 gap-4 p-6 border-b border-gray-200">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🗳️</span>
+                <span className="font-semibold text-gray-800">Participating in DAO</span>
+              </div>
+              <div className="text-gray-700">
+                Voting on project decisions.
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 gap-4 p-6 border-b border-gray-200">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🎁</span>
+                <span className="font-semibold text-gray-800">Airdrops and Giveaways</span>
+              </div>
+              <div className="text-gray-700">
+                Rewards for participation and activity.
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 gap-4 p-6 border-b border-gray-200">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">📚</span>
+                <span className="font-semibold text-gray-800">Educational & Entertainment Content</span>
+              </div>
+              <div className="text-gray-700">
+                Through the NFT or the project's dedicated Web3 platform.
               </div>
             </div>
             
             <div className="grid grid-cols-2 gap-4 p-6">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">📦</span>
-                <span className="font-semibold text-gray-800">Participating in DAO</span>
+                <span className="text-2xl">🚀</span>
+                <span className="font-semibold text-gray-800">Project Future</span>
               </div>
               <div className="text-gray-700">
-                You vote on project decisions.
+                If Dolphin succeeds and expands (PlayStation game + AI Bot + NFT marketplace), the token's value can rise significantly.
               </div>
             </div>
           </div>
