@@ -35,7 +35,7 @@ export const PresaleSection = () => {
               <Button 
                 size="lg" 
                 className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4"
-                onClick={() => window.open('https://tools.smithii.io/launches-list/solana', '_blank')}
+                onClick={() => window.open('https://tools.smithii.io/launch/Dolphin-Solana-Presale', '_blank')}
               >
                 Join Presale on Smithii Tools
               </Button>
