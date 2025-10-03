@@ -345,40 +345,59 @@ export const WhitepaperDocument = () => {
           </div>
         </section>
 
-        {/* Conclusion */}
+        {/* FAQ */}
         <section className="space-y-6">
           <h2 className="text-4xl font-bold text-blue-600 border-b-2 border-blue-200 pb-4">
-            Conclusion
+            FAQ
           </h2>
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg">
-            <p className="text-xl font-bold text-gray-800 mb-6 text-center">
-              Dolphin Solana (DOLPHIN) is not just another meme coin.
-            </p>
-            <p className="text-lg text-gray-700 mb-4">
-              It's a community-powered ecosystem combining:
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">🎨</span>
-                <span>Viral AI-generated memes → turned into NFTs</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">🎮</span>
-                <span>Dynamic reward system → fun Play-to-Earn mechanics</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">🗳️</span>
-                <span>DAO governance → real community power</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">💰</span>
-                <span>Strong presale & tokenomics → sustainable growth</span>
+          <div className="space-y-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-blue-800 mb-2">Q: What is Dolphin Solana?</h3>
+              <p className="text-gray-700">A next-gen meme coin with AI, NFTs, DAO, and real community power.</p>
+            </div>
+            <div className="bg-cyan-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-cyan-800 mb-2">Q: What makes it different?</h3>
+              <p className="text-gray-700">Utility + Meme culture + AI + DAO governance + Real game revenue burn model.</p>
+            </div>
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-purple-800 mb-2">Q: Is liquidity locked?</h3>
+              <p className="text-gray-700">Yes, DEX liquidity is locked for stability.</p>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-green-800 mb-2">Q: Where to buy $DOLPHIN?</h3>
+              <p className="text-gray-700">Via Smithii Tools presale (from 15 Oct 2025) and later on DEX/CEX listings.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact */}
+        <section className="space-y-6">
+          <h2 className="text-4xl font-bold text-blue-600 border-b-2 border-blue-200 pb-4">
+            Contact
+          </h2>
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-lg space-y-6">
+            <div className="text-center space-y-2">
+              <p className="text-lg text-gray-700">📧 info@dolphinmemetokens.com</p>
+              <p className="text-lg text-gray-700">⛓️ Solana Blockchain</p>
+            </div>
+            
+            <div className="text-center">
+              <h3 className="text-xl font-bold text-blue-800 mb-4">Join the community:</h3>
+              <div className="space-y-2">
+                <p><a href="https://x.com/DolphinSolana24?s=09" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">Twitter</a></p>
+                <p><a href="https://t.me/DolphineSolana2" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">Telegram</a></p>
+                <p><a href="https://t.me/DolphinSolana1" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">Announcements</a></p>
+                <p><a href="https://discord.gg/JyupxNjPDH" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">Discord</a></p>
+                <p><a href="https://www.tiktok.com/@dolphinsolana" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">TikTok</a></p>
+                <p><a href="https://www.instagram.com/dolphinsolana" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">Instagram</a></p>
               </div>
             </div>
-            <p className="text-xl font-bold text-center text-blue-600">
-              The future of meme coins is smart, creative, and decentralized.<br />
-              And Dolphin Solana is leading the wave.
-            </p>
+
+            <div className="text-center mt-8">
+              <p className="text-2xl font-bold text-blue-600">
+                Dolphin Solana is more than just a meme coin — it's the wave of the future!
+              </p>
+            </div>
           </div>
         </section>
 
