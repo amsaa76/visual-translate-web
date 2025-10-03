@@ -121,12 +121,14 @@ export const WhitepaperDocument = () => {
             </div>
 
             <div className="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-indigo-800 mb-4">5. AI Assistant (Dolphin AI Bot)</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li>• Smart Telegram/Discord bot integrated into the ecosystem</li>
-                <li>• Provides instant project info (presale, NFT, DAO, links)</li>
-                <li>• Creates memes & educates community members in multiple languages</li>
-              </ul>
+              <h3 className="text-2xl font-bold text-indigo-800 mb-4">5. aID Dolphin AI Bot (NEW)</h3>
+              <p className="text-gray-700 mb-4">
+                At the heart of our community is Dolphin AI, a built-in smart bot that welcomes members in their own language, 
+                helps manage and verify airdrop participation, and can even create NFT-style images for our holders.
+              </p>
+              <p className="text-gray-700">
+                It's designed to keep the community real, active and rewarded — making Dolphin Solana far more than just another token.
+              </p>
             </div>
           </div>
         </section>
@@ -197,10 +199,25 @@ export const WhitepaperDocument = () => {
           </div>
         </section>
 
+        {/* Gaming Revenue */}
+        <section className="space-y-6">
+          <h2 className="text-4xl font-bold text-blue-600 border-b-2 border-blue-200 pb-4">
+            Gaming Revenue (NEW)
+          </h2>
+          <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-lg">
+            <p className="text-lg text-gray-800 leading-relaxed">
+              The Dolphin Solana token will have a direct revenue stream from our PlayStation-integrated game. 
+              NFT holders will enjoy free or discounted access to the game, while <span className="font-bold text-purple-800">60% of the game's revenue will be burned</span> and 
+              <span className="font-bold text-purple-800"> 40% reserved</span>, directly supporting the token's long-term value. 
+              This model ties real gaming income to our tokenomics, giving Dolphin Solana sustainable utility and growth beyond speculation.
+            </p>
+          </div>
+        </section>
+
         {/* Funding & Revenue Streams */}
         <section className="space-y-6">
           <h2 className="text-4xl font-bold text-blue-600 border-b-2 border-blue-200 pb-4">
-            Funding & Revenue Streams
+            Funding & Revenue
           </h2>
           <div className="space-y-4">
             <div className="bg-green-50 p-6 rounded-lg">
@@ -218,6 +235,10 @@ export const WhitepaperDocument = () => {
             <div className="bg-cyan-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-cyan-800 mb-2">4. Partnerships</h3>
               <p className="text-gray-700">Cross-project collaborations in Solana & Web3 ecosystems</p>
+            </div>
+            <div className="bg-pink-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-pink-800 mb-2">5. Game Revenue Burn + Reserve Model</h3>
+              <p className="text-gray-700">Sustainable income from PlayStation-integrated gaming ecosystem</p>
             </div>
           </div>
         </section>
@@ -291,6 +312,7 @@ export const WhitepaperDocument = () => {
                 <li>• Dedicated NFT marketplace for Dolphin memes</li>
                 <li>• Advanced AI integration (multi-language meme generation)</li>
                 <li>• Expansion of Play-to-Earn ecosystem</li>
+                <li>• Launch of Dolphin Game full version</li>
               </ul>
             </div>
           </div>
