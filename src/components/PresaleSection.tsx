@@ -14,8 +14,34 @@ export const PresaleSection = () => {
             />
           </div>
           
-          <div className="space-y-6">
-            <div className="mt-4">
+          <div className="space-y-8">
+            <div className="space-y-6 text-center">
+              <h2 className="text-4xl md:text-5xl font-bold text-white">
+                🚀 Presale Coming Soon
+              </h2>
+              
+              <div className="space-y-4 text-lg text-white/90 max-w-3xl mx-auto">
+                <p className="text-xl font-semibold">
+                  Get ready, Dolphins! 🐬<br />
+                  The $DOLPHIN Presale is almost here.
+                </p>
+                
+                <p>
+                  Prepare your wallets and stay alert - only verified participants will have access once the gates open.
+                  You'll need a Solana-compatible wallet such as Phantom, Solflare, or Backpack to join the presale and buy $DOLPHIN safely.
+                </p>
+                
+                <p className="font-semibold">
+                  Early supporters will gain exclusive entry before the public sale begins. 🌊
+                </p>
+                
+                <p>
+                  This is your chance to join the wave early and become part of the movement that connects Web3, AI, and gaming. 💎🐬
+                </p>
+              </div>
+            </div>
+            
+            <div className="mt-8">
               <WhitepaperViewer />
             </div>
           </div>
