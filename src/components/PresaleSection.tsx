@@ -2,6 +2,8 @@ import dolphinLogo from "@/assets/dolphin-logo.png";
 import { WhitepaperViewer } from "./WhitepaperViewer";
 
 export const PresaleSection = () => {
+  console.log('PresaleSection loaded');
+  
   return (
     <div className="bg-gradient-primary p-6 space-y-12">
       <div className="max-w-4xl mx-auto space-y-12">

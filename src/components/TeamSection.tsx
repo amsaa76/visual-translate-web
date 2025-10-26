@@ -2,6 +2,8 @@ import { GradientCard } from "@/components/ui/gradient-card";
 import { Users, Briefcase, Code, Megaphone, Scale } from "lucide-react";
 
 export const TeamSection = () => {
+  console.log('TeamSection loaded');
+  
   const teamMembers = [
     {
       icon: Briefcase,
