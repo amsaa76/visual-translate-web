@@ -8,7 +8,7 @@ import { BenefitsTable } from "@/components/BenefitsTable";
 import { AdditionalBenefitsSection } from "@/components/AdditionalBenefitsSection";
 import { AboutDolphinSection } from "@/components/AboutDolphinSection";
 import { PresaleSection } from "@/components/PresaleSection";
-import { WalletSection } from "@/components/WalletSection";
+import { TeamSection } from "@/components/TeamSection";
 import { TokenomicsSection } from "@/components/TokenomicsSection";
 import { RoadmapSection } from "@/components/RoadmapSection";
 import { FAQSection } from "@/components/FAQSection";
@@ -30,7 +30,7 @@ const Index = () => {
       <AdditionalBenefitsSection />
       <AboutDolphinSection />
       <PresaleSection />
-      <WalletSection />
+      <TeamSection />
       <TokenomicsSection />
       <RoadmapSection />
       <FAQSection />
