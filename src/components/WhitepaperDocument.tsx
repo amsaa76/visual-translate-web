@@ -172,7 +172,7 @@ export const WhitepaperDocument = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-white p-4 rounded-lg border-l-4 border-blue-500">
-                <h4 className="font-bold text-blue-600">Pre-Sale: 30%</h4>
+                <h4 className="font-bold text-blue-600">Pre-Sale: 50%</h4>
                 <p className="text-sm text-gray-600">Via Smithii Tools, starting Oct 15, 2025</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-green-500">
@@ -180,20 +180,16 @@ export const WhitepaperDocument = () => {
                 <p className="text-sm text-gray-600">Locked for trading stability</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-purple-500">
-                <h4 className="font-bold text-purple-600">Team & Development: 15%</h4>
+                <h4 className="font-bold text-purple-600">Team & Development: 10%</h4>
                 <p className="text-sm text-gray-600">Vesting to ensure long-term commitment</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-orange-500">
-                <h4 className="font-bold text-orange-600">Marketing: 13%</h4>
+                <h4 className="font-bold text-orange-600">Marketing: 10%</h4>
                 <p className="text-sm text-gray-600">Global awareness & community campaigns</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-cyan-500">
-                <h4 className="font-bold text-cyan-600">Airdrop & Community: 10%</h4>
+                <h4 className="font-bold text-cyan-600">Airdrop: 10%</h4>
                 <p className="text-sm text-gray-600">Incentivize early adopters and loyal members</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg border-l-4 border-red-500">
-                <h4 className="font-bold text-red-600">Burned: 12%</h4>
-                <p className="text-sm text-gray-600">Permanently removed, making DOLPHIN deflationary</p>
               </div>
             </div>
           </div>

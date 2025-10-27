@@ -2,12 +2,11 @@ import { GradientCard } from "@/components/ui/gradient-card";
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 const tokenomicsData = [
-  { name: 'Pre-sales on Smith Tool', value: 30, color: '#FF6B9D' },
+  { name: 'Pre-sales', value: 50, color: '#FF6B9D' },
   { name: 'Liquidity pool DEX', value: 20, color: '#4ECDC4' },
-  { name: 'Team & Development', value: 15, color: '#45B7D1' },
-  { name: 'Marketing', value: 13, color: '#F9CA24' },
-  { name: 'Airdrop', value: 10, color: '#A8A8FF' },
-  { name: 'Burned on old smart contract', value: 12, color: '#95A5A6' }
+  { name: 'Team & Development', value: 10, color: '#45B7D1' },
+  { name: 'Marketing', value: 10, color: '#F9CA24' },
+  { name: 'Airdrop', value: 10, color: '#A8A8FF' }
 ];
 
 export const TokenomicsSection = () => {
@@ -83,7 +82,7 @@ export const TokenomicsSection = () => {
             </div>
             <div className="flex justify-between items-center py-2">
               <span className="font-semibold">Contract Address:</span>
-              <span className="text-xs break-all">GPfzbTska6x6KyZH8FVimjcH3YxgN5kvVwDc8f8dsaZN</span>
+              <span className="text-xs break-all">6mMYWqnAok6mSt2ef842z2yJxQUrGnNRbDagRbF36Zxn</span>
             </div>
           </div>
         </div>
