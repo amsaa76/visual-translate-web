@@ -23,7 +23,7 @@ export const TokenomicsSection = () => {
           {/* Pie Chart */}
           <div className="bg-white rounded-3xl p-8 shadow-card">
             <div className="h-80">
-              <ResponsiveContainer width="100%" height="100%" debounce={1}>
+              <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie
                     data={tokenomicsData}
@@ -33,8 +33,7 @@ export const TokenomicsSection = () => {
                     outerRadius={120}
                     paddingAngle={2}
                     dataKey="value"
-                    animationDuration={800}
-                    isAnimationActive={true}
+                    isAnimationActive={false}
                   >
                     {tokenomicsData.map((entry, index) => (
                       <Cell key={`cell-${index}`} fill={entry.color} />
