@@ -34,10 +34,6 @@ export const FAQSection = () => {
       answer: "Please refer to the Tokenomics section for detailed distribution."
     },
     {
-      question: "Where can I buy $DOLPHIN tokens?",
-      answer: "Soon, $DOLPHIN will be available for presale on Smith Tool, followed by listings on DEX platforms like Raydium and Jupiter."
-    },
-    {
       question: "Is the liquidity locked?",
       answer: "Yes, a portion of the liquidity pool will be locked to protect investors and ensure long-term trust not less than 4 months."
     }

@@ -173,7 +173,7 @@ export const WhitepaperDocument = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-white p-4 rounded-lg border-l-4 border-blue-500">
                 <h4 className="font-bold text-blue-600">Pre-Sale: 50%</h4>
-                <p className="text-sm text-gray-600">Via Smithii Tools, starting Oct 15, 2025</p>
+                <p className="text-sm text-gray-600">starting 20 Nov, 2025</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-green-500">
                 <h4 className="font-bold text-green-600">Liquidity Pool (DEX): 20%</h4>
@@ -280,14 +280,13 @@ export const WhitepaperDocument = () => {
               <ul className="space-y-2 text-gray-700">
                 <li>• Launch Dolphin AI Bot (Telegram/Discord)</li>
                 <li>• Build community base on Telegram, Discord, and X</li>
-                <li>• Open presale listing on Smithii Tools</li>
               </ul>
             </div>
 
             <div className="bg-gradient-to-r from-green-100 to-green-50 p-6 rounded-lg">
               <h3 className="text-2xl font-bold text-green-800 mb-4">Q4 2025</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• Presale launch (15 Oct 2025)</li>
+                <li>• Presale launch (20 Nov 2025)</li>
                 <li>• First batch of AI-generated NFTs released</li>
                 <li>• Airdrop program live</li>
               </ul>
@@ -359,10 +358,6 @@ export const WhitepaperDocument = () => {
               <h3 className="text-xl font-bold text-purple-800 mb-2">Q: Is liquidity locked?</h3>
               <p className="text-gray-700">Yes, DEX liquidity is locked for stability.</p>
             </div>
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-green-800 mb-2">Q: Where to buy $DOLPHIN?</h3>
-              <p className="text-gray-700">Via Smithii Tools presale (from 15 Oct 2025) and later on DEX/CEX listings.</p>
-            </div>
           </div>
         </section>
 
@@ -373,7 +368,7 @@ export const WhitepaperDocument = () => {
           </h2>
           <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-lg space-y-6">
             <div className="text-center space-y-2">
-              <p className="text-lg text-gray-700">📧 info@dolphinmemetokens.com</p>
+              <p className="text-lg text-gray-700">📧 dolphinmemetoken@gmail.com</p>
               <p className="text-lg text-gray-700">⛓️ Solana Blockchain</p>
             </div>
             

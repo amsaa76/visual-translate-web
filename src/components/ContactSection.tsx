@@ -16,7 +16,7 @@ export const ContactSection = () => {
           
           <p className="text-lg text-white/80 leading-relaxed mb-12">
             Have questions or feedback? We'd love to hear from you! Reach out to us at{" "}
-            <span className="text-yellow-300 font-semibold">info@dolphinmemetokens.com</span>{" "}
+            <span className="text-yellow-300 font-semibold">dolphinmemetoken@gmail.com</span>{" "}
             to connect with the team!
           </p>
         </div>
@@ -25,7 +25,7 @@ export const ContactSection = () => {
           <div className="bg-white/10 rounded-2xl p-6 text-center backdrop-blur-sm">
             <Mail className="w-12 h-12 text-white mx-auto mb-4" />
             <h3 className="text-xl font-bold text-white mb-2">Email Us</h3>
-            <p className="text-white/80">info@dolphinmemetokens.com</p>
+            <p className="text-white/80">dolphinmemetoken@gmail.com</p>
           </div>
           
           <div className="bg-white/10 rounded-2xl p-6 text-center backdrop-blur-sm">
