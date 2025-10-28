@@ -16,7 +16,7 @@ import { ContactSection } from "@/components/ContactSection";
 import { SocialLinks } from "@/components/SocialLinks";
 
 const Index = () => {
-  console.log('Index page loaded');
+  console.log('Index page rendering - START');
   
   return (
     <div className="min-h-screen">
