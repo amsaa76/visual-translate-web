@@ -2,7 +2,6 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const ContactSection = () => {
-  console.log('ContactSection rendering');
   return (
     <div className="bg-gradient-primary p-6 space-y-8">
       <div className="max-w-4xl mx-auto space-y-8">

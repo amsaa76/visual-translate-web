@@ -8,7 +8,6 @@ import {
 import faqDolphin from "@/assets/faq-dolphin.png";
 
 export const FAQSection = () => {
-  console.log('FAQSection rendering');
   const faqData = [
     {
       question: "What is Dolphin Solana?",
