@@ -14,6 +14,7 @@ import { RoadmapSection } from "@/components/RoadmapSection";
 import { FAQSection } from "@/components/FAQSection";
 import { ContactSection } from "@/components/ContactSection";
 import { SocialLinks } from "@/components/SocialLinks";
+import { PartnersSection } from "@/components/PartnersSection";
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ const Index = () => {
       <TokenomicsSection />
       <RoadmapSection />
       <FAQSection />
+      <PartnersSection />
       <ContactSection />
       <SocialLinks />
     </div>
