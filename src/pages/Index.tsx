@@ -29,11 +29,11 @@ const Index = () => {
       <AdditionalBenefitsSection />
       <AboutDolphinSection />
       <PresaleSection />
+      <PartnersSection />
       <TeamSection />
       <TokenomicsSection />
       <RoadmapSection />
       <FAQSection />
-      <PartnersSection />
       <ContactSection />
       <SocialLinks />
     </div>
