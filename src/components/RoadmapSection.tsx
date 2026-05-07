@@ -3,42 +3,47 @@ import { Calendar } from "lucide-react";
 export const RoadmapSection = () => {
   const roadmapData = [
     {
-      quarter: "Q3 2025:",
+      quarter: "2025 — Foundation & Setup",
       items: [
-        "Launch of Dolphin NFT Marketplace with exclusive collections",
-        "Implementation of DAO governance platform with voting mechanisms",
-        "Strategic partnerships with major DeFi protocols and Web3 platforms",
-        "Launch of Dolphin Staking Program with attractive APY rewards"
+        "Token Creation & Smart Contract Deployment",
+        "Launch of Official Social Media Channels (Telegram, X, Discord)",
+        "Initial Marketing Campaigns through Influencers & Promoters",
+        "Community Building & Brand Awareness"
       ]
     },
     {
-      quarter: "Q4 2025:",
+      quarter: "Q1 2026 — Community & Tools",
       items: [
-        "Integration with major metaverse platforms for virtual experiences",
-        "Launch of Dolphin Academy - Educational platform for crypto newcomers",
-        "Cross-chain bridge development for multi-blockchain compatibility",
-        "Tier 1 exchange listings (Binance, Coinbase, Kraken)",
-        "Launch of Dolphin Mobile App with wallet integration"
+        "Airdrop & Giveaway Campaigns to expand user base",
+        "Launch of AI Community Bot (Telegram Support & Moderation)",
+        "Strengthening Community Engagement & Activity"
       ]
     },
     {
-      quarter: "Q1 2026:",
+      quarter: "Q2 2026 — Presale Phase",
       items: [
-        "Dolphin DeFi Suite launch (Lending, Borrowing, Yield Farming)",
-        "AI-powered trading bot integration for DOL holders",
-        "Launch of Dolphin Launchpad for incubating new projects",
-        "Real-world utility partnerships (Payments, E-commerce integration)",
-        "Community-driven venture capital fund establishment"
+        "Official Presale Launch",
+        "Marketing Push & Investor Outreach",
+        "Strategic Partnerships & Promotions",
+        "Preparation for DEX Listing"
       ]
     },
     {
-      quarter: "Q2 2026:",
+      quarter: "Q3 2026 — Development Phase",
       items: [
-        "Global expansion with regional community hubs worldwide",
-        "Dolphin Gaming Ecosystem with Play-to-Earn mechanics",
-        "Enterprise blockchain solutions powered by DOL token",
-        "Carbon-neutral blockchain initiative and environmental partnerships",
-        "IPO preparation and traditional finance market entry strategy"
+        "Start Development of Dolphin PlayStation Game",
+        "DAO Platform Development (Community Governance)",
+        "NFT Collection Launch",
+        "Web3 Ecosystem Integration",
+        "Preparation for Major Exchange Listings"
+      ]
+    },
+    {
+      quarter: "Q4 2026 — Expansion Phase",
+      items: [
+        "Beta Release of Dolphin Game",
+        "Expansion of Partnerships (Gaming & Web3 Projects)",
+        "Community Growth & Global Marketing Campaigns"
       ]
     }
   ];
