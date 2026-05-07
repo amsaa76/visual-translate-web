@@ -19,26 +19,36 @@ export const PresaleSection = () => {
           <div className="space-y-8">
             <div className="space-y-6 text-center">
               <h2 className="text-4xl md:text-5xl font-bold text-white">
-                🚀 Presale Coming Soon
+                🚀 Presale Starts May 10
               </h2>
               
               <div className="space-y-4 text-lg text-white/90 max-w-3xl mx-auto">
                 <p className="text-xl font-semibold">
                   Get ready, Dolphins! 🐬<br />
-                  The $DOLPHIN Presale is almost here.
+                  The official $DOLPHIN Presale launches on May 10.
                 </p>
                 
                 <p>
-                  Prepare your wallets and stay alert - only verified participants will have access once the gates open.
-                  You'll need a Solana-compatible wallet such as Phantom, Solflare, or Backpack to join the presale and buy $DOLPHIN safely.
+                  Prepare your Solana wallet and be ready before launch day.
+                </p>
+
+                <p className="font-semibold">Supported wallets include:</p>
+                <ul className="list-none space-y-1">
+                  <li>• Phantom</li>
+                  <li>• Solflare</li>
+                  <li>• Backpack</li>
+                </ul>
+
+                <p>
+                  Early participants will gain access to the presale before public market trading begins.
                 </p>
                 
+                <p>
+                  $DOLPHIN is building a community-driven ecosystem connecting Web3, AI, gaming, NFTs, and the Solana future. 🌊
+                </p>
+
                 <p className="font-semibold">
-                  Early supporters will gain exclusive entry before the public sale begins. 🌊
-                </p>
-                
-                <p>
-                  This is your chance to join the wave early and become part of the movement that connects Web3, AI, and gaming. 💎🐬
+                  Don't wait for the wave after it starts — position yourself early. 💎🐬
                 </p>
               </div>
             </div>

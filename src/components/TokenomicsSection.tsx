@@ -1,12 +1,12 @@
-import { GradientCard } from "@/components/ui/gradient-card";
-import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
+import tokenomicsImage from "@/assets/tokenomics-distribution.jpg";
 
 const tokenomicsData = [
-  { name: 'Pre-sales', value: 50, color: '#FF6B9D' },
-  { name: 'Liquidity pool DEX', value: 20, color: '#4ECDC4' },
+  { name: 'Pre-sales', value: 30, color: '#FF6B9D' },
+  { name: 'Liquidity pool DEX (Locked for 4 months — extension may apply depending on market conditions)', value: 20, color: '#A8A8FF' },
+  { name: 'PlayStation Development', value: 15, color: '#F9CA24' },
   { name: 'Team & Development', value: 10, color: '#45B7D1' },
-  { name: 'Marketing', value: 10, color: '#F9CA24' },
-  { name: 'Airdrop', value: 10, color: '#A8A8FF' }
+  { name: 'Marketing', value: 15, color: '#4ECDC4' },
+  { name: 'Airdrop', value: 10, color: '#3BA9E0' }
 ];
 
 export const TokenomicsSection = () => {
@@ -20,28 +20,14 @@ export const TokenomicsSection = () => {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Pie Chart */}
-          <div className="bg-white rounded-3xl p-8 shadow-card">
-            <div className="h-80">
-              <ResponsiveContainer width="100%" height="100%">
-                <PieChart>
-                  <Pie
-                    data={tokenomicsData}
-                    cx="50%"
-                    cy="50%"
-                    innerRadius={60}
-                    outerRadius={120}
-                    paddingAngle={2}
-                    dataKey="value"
-                    isAnimationActive={false}
-                  >
-                    {tokenomicsData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.color} />
-                    ))}
-                  </Pie>
-                </PieChart>
-              </ResponsiveContainer>
-            </div>
+          {/* Distribution Image */}
+          <div className="bg-white rounded-3xl p-8 shadow-card flex items-center justify-center">
+            <img
+              src={tokenomicsImage}
+              alt="Dolphin token distribution"
+              className="w-full h-auto max-w-md rounded-2xl"
+              loading="lazy"
+            />
           </div>
 
           {/* Distribution List */}

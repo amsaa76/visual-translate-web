@@ -172,19 +172,23 @@ export const WhitepaperDocument = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-white p-4 rounded-lg border-l-4 border-blue-500">
-                <h4 className="font-bold text-blue-600">Pre-Sale: 50%</h4>
-                <p className="text-sm text-gray-600">starting 20 Nov, 2025</p>
+                <h4 className="font-bold text-blue-600">Pre-sales: 30%</h4>
+                <p className="text-sm text-gray-600">Presale launches May 10</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-green-500">
                 <h4 className="font-bold text-green-600">Liquidity Pool (DEX): 20%</h4>
-                <p className="text-sm text-gray-600">Locked for trading stability</p>
+                <p className="text-sm text-gray-600">Locked for 4 months — extension may apply depending on market conditions</p>
+              </div>
+              <div className="bg-white p-4 rounded-lg border-l-4 border-yellow-500">
+                <h4 className="font-bold text-yellow-600">PlayStation Development: 15%</h4>
+                <p className="text-sm text-gray-600">Funding the Dolphin PlayStation game</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-purple-500">
                 <h4 className="font-bold text-purple-600">Team & Development: 10%</h4>
                 <p className="text-sm text-gray-600">Vesting to ensure long-term commitment</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-orange-500">
-                <h4 className="font-bold text-orange-600">Marketing: 10%</h4>
+                <h4 className="font-bold text-orange-600">Marketing: 15%</h4>
                 <p className="text-sm text-gray-600">Global awareness & community campaigns</p>
               </div>
               <div className="bg-white p-4 rounded-lg border-l-4 border-cyan-500">
@@ -276,38 +280,51 @@ export const WhitepaperDocument = () => {
           
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-blue-100 to-blue-50 p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-800 mb-4">Q3 2025</h3>
+              <h3 className="text-2xl font-bold text-blue-800 mb-4">2025 — Foundation & Setup</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• Launch Dolphin AI Bot (Telegram/Discord)</li>
-                <li>• Build community base on Telegram, Discord, and X</li>
+                <li>• Token Creation & Smart Contract Deployment</li>
+                <li>• Launch of Official Social Media Channels (Telegram, X, Discord)</li>
+                <li>• Initial Marketing Campaigns through Influencers & Promoters</li>
+                <li>• Community Building & Brand Awareness</li>
               </ul>
             </div>
 
             <div className="bg-gradient-to-r from-green-100 to-green-50 p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-green-800 mb-4">Q4 2025</h3>
+              <h3 className="text-2xl font-bold text-green-800 mb-4">Q1 2026 — Community & Tools</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• Presale launch (20 Nov 2025)</li>
-                <li>• First batch of AI-generated NFTs released</li>
-                <li>• Airdrop program live</li>
+                <li>• Airdrop & Giveaway Campaigns to expand user base</li>
+                <li>• Launch of AI Community Bot (Telegram Support & Moderation)</li>
+                <li>• Strengthening Community Engagement & Activity</li>
               </ul>
             </div>
 
             <div className="bg-gradient-to-r from-purple-100 to-purple-50 p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-purple-800 mb-4">Q1 2026</h3>
+              <h3 className="text-2xl font-bold text-purple-800 mb-4">Q2 2026 — Presale Phase</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• DAO governance launch</li>
-                <li>• Dynamic rewards system fully operational</li>
-                <li>• Partnerships with meme/NFT projects</li>
+                <li>• Official Presale Launch</li>
+                <li>• Marketing Push & Investor Outreach</li>
+                <li>• Strategic Partnerships & Promotions</li>
+                <li>• Preparation for DEX Listing</li>
               </ul>
             </div>
 
             <div className="bg-gradient-to-r from-orange-100 to-orange-50 p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-orange-800 mb-4">Q2–Q4 2026</h3>
+              <h3 className="text-2xl font-bold text-orange-800 mb-4">Q3 2026 — Development Phase</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• Dedicated NFT marketplace for Dolphin memes</li>
-                <li>• Advanced AI integration (multi-language meme generation)</li>
-                <li>• Expansion of Play-to-Earn ecosystem</li>
-                <li>• Launch of Dolphin Game full version</li>
+                <li>• Start Development of Dolphin PlayStation Game</li>
+                <li>• DAO Platform Development (Community Governance)</li>
+                <li>• NFT Collection Launch</li>
+                <li>• Web3 Ecosystem Integration</li>
+                <li>• Preparation for Major Exchange Listings</li>
+              </ul>
+            </div>
+
+            <div className="bg-gradient-to-r from-pink-100 to-pink-50 p-6 rounded-lg">
+              <h3 className="text-2xl font-bold text-pink-800 mb-4">Q4 2026 — Expansion Phase</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Beta Release of Dolphin Game</li>
+                <li>• Expansion of Partnerships (Gaming & Web3 Projects)</li>
+                <li>• Community Growth & Global Marketing Campaigns</li>
               </ul>
             </div>
           </div>
